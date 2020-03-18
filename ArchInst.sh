@@ -1,28 +1,6 @@
-sudo pacman -Su
-sudo pacman -S code
+sudo pacman -Syu
 sudo pacman -S yay
-yay -S nitrogen
-yay -S compton
-yay -S tor-browser
-yay -S timeshift
-yay -S brave
-yay -S etcher-bin
-yay -S firefox-nightly
-yay -S openrazer-meta-git
-yay -S polychromatic
-yay -S gimp
-yay -S guake
-yay -S alacritty
-yay -S rstudio-desktop-bin  
-yay -S sublime-text-dev
-yay -S xboxdrv
-yay -S steam
-yay -S gamehub-git
-yay -S vlc-git
-yay -S j4-dmenu-desktop
-yay -S lutris-git
-yay -S xclip
-yay -S xcompmgr
-yay -S feh
-yay -S broot
-yay -S wine-stable
+--noremovemake --answerclean y --answerdiff n --answeredit y --answerupgrade y --batchinstall
+code
+yay -S --noremovemake --answerclean y --answerdiff n --answeredit y --answerupgrade y --batchinstall nitrogen compton tor-browser timeshift brave etcher-bin firefox-nightly openrazer-meta-git polychromatic gimp guake alacritty rstudio-desktop-bin sublime-text-dev xboxdrv steam gamehub-git vlc-git j4-dmenu-desktop lutris-git xclip xcompmgr feh broot wine-stable
+yay -Syu
