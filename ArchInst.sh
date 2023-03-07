@@ -12,6 +12,10 @@ sudo pacman -Syu --noconfirm git ripgrep fd
 # Clone Doom Emacs repository
 git clone https://github.com/hlissner/doom-emacs ~/.emacs.d
 
+#Install croc file transfer
+
+curl https://getcroc.schollz.com | bash
+
 # Install Doom Emacs
 ~/.emacs.d/bin/doom install
 
